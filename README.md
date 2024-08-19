@@ -1,9 +1,10 @@
 # NetSLE
 # README for NetSLE
 
-> Before start, create a virtual environment for analysis using anaconda program and ___NetSLE.yml___ file.
+> Before start, create a virtual environment for analysis using anaconda program and ___NetSLE.yml___ file. Then, unzip the network file ("string_0.txt.zip") in ../data/network.
 ```
 conda env create -f NetworkModel.yml
+unzip string_0.txt.zip
 ```
 
 ---------------------------------------
