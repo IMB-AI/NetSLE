@@ -21,7 +21,7 @@ unzip string_0.txt.zip
   
 ```
 cd ../../code
-python knowledge_path ../data/SLE_prior_knowledge
+python pagerank.py --knowledge_path ../data/SLE_prior_knowledge
 ```
 
 * ### Output:
