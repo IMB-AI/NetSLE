@@ -13,7 +13,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--knowledge_path', required = False, default = '../data/SLE_prior_knowledge')
 args = parser.parse_args()
 
-prefix = args.knowledge_path.split('/')[-1]
+prefix = os.path.basename(args.knowledge_path)
+if(prefix == ''):
+	prefix = os.path.basename(args.knowledge_path[:-1])
 os.makedirs(os.path.join('../result', 'pagerank_score', prefix), exist_ok = True)
 
 if(args.knowledge_path == '../data/SLE_prior_knowledge'):
