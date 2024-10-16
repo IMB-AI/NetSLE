@@ -1,6 +1,7 @@
 # NetSLE
 # README for NetSLE
 
+#### By preparing prior knowledge data and DEG information for a specific disease in the required file format and organizing them in the correct directory, you can prioritize the biomarker list for that disease. For SLE cases, use the data and command below.
 > Before start, create a virtual environment for analysis using anaconda program and ___NetSLE.yml___ file. Then, unzip the network file ("string_0.txt.zip") in ./data/network.
 ```
 conda env create -f NetSLE.yml
