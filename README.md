@@ -20,6 +20,7 @@ unzip string_0.txt.zip
     knowledge_path (Directory path of disease-related prior knowledge information)
   
 ```
+cd ../../code
 python knowledge_path ../data/SLE_prior_knowledge
 ```
 
