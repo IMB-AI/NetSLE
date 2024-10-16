@@ -13,7 +13,7 @@ unzip string_0.txt.zip
 ## Table of Contents (Order of code run)
 1. Run pagerank.py for assessing the association bewteen differentially expressed genes (DEGs) and prior knowledge related to disease: [___pagerank.py___](#pagerank.py)
 2. Run run_ml.py for probability of association with disease by integrating pagerank score from prior knowledge: [___run_ml.py___](#run_ml.py)
-#### By preparing prior knowledge data (refer to the "SLE_GWAS.txt" or "GCall_genelist.txt") and DEG information (refer to the "SLE_DEGs.tsv") for a specific disease in the required file format and organizing them in the correct directory, you can prioritize the biomarker list for that disease. For SLE cases, use the data and command below.
+#### By preparing prior knowledge data (refer to the format of "SLE_GWAS.txt" or "GCall_genelist.txt") and DEG information (refer to the format of "SLE_DEGs.tsv") for a specific disease in the required file format and organizing them in the correct directory, you can prioritize the biomarker list for that disease. For SLE cases, use the data and command below.
 
 * * *
 ## <a name="pagerank.py"></a> Network propagation
