@@ -14,7 +14,9 @@ parser.add_argument('--pagerank_path', required = False, default = '../result/pa
 parser.add_argument('--DEG', required = False, default = '../data/DEG/SLE_DEGs.tsv')
 args = parser.parse_args()
 
-prefix = args.pagerank_path.split('/')[-1]
+prefix = os.path.basename(args.pagerank_path)
+if(prefix == ''):
+	prefix = os.path.basename(args.pagerank_path[:-1])
 os.makedirs(os.path.join('../result', 'disease_probability', prefix), exist_ok = True)
 
 if(args.pagerank_path == '../result/pagerank_score/SLE_prior_knowledge'):
