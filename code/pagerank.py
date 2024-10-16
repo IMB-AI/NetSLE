@@ -18,7 +18,7 @@ if(prefix == ''):
 	prefix = os.path.basename(args.knowledge_path[:-1])
 os.makedirs(os.path.join('../result', 'pagerank_score', prefix), exist_ok = True)
 
-if(args.knowledge_path == '../data/SLE_prior_knowledge'):
+if(args.knowledge_path == '../data/SLE_prior_knowledge' or args.knowledge_path == '../data/SLE_prior_knowledge/'):
 	print('### BAFF (TNFSF13B) pagerank')
 	baff = {'TNFSF13B' : 1.0}
 
