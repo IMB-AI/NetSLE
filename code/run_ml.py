@@ -19,7 +19,7 @@ if(prefix == ''):
 	prefix = os.path.basename(args.pagerank_path[:-1])
 os.makedirs(os.path.join('../result', 'disease_probability', prefix), exist_ok = True)
 
-if(args.pagerank_path == '../result/pagerank_score/SLE_prior_knowledge'):
+if(args.pagerank_path == '../result/pagerank_score/SLE_prior_knowledge' or args.pagerank_path == '../result/pagerank_score/SLE_prior_knowledge/'):
 	### Load pagerank score
 	baff = pd.read_csv(os.path.join(args.pagerank_path, 'Drug_target.tsv'), sep = '\t')
 	gwas = pd.read_csv(os.path.join(args.pagerank_path, 'GWAS.tsv'), sep = '\t')
