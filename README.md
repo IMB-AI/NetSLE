@@ -44,4 +44,4 @@ python run_ml.py --pagerank_path ../result/pagerank_score/SLE_prior_knowledge --
 * ### Output:
     Probability of disease association in ../result/disease_probability/~
   
-Cite the code: [![DOI](https://zenodo.org/badge/844365006.svg)](https://doi.org/10.5281/zenodo.13938286)
+Cite the code: [![DOI](https://zenodo.org/badge/844365006.svg)](https://doi.org/10.5281/zenodo.13939175)
