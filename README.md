@@ -5,6 +5,7 @@
 ```
 conda env create -f NetSLE.yml
 conda activate NetSLE
+cd ./data/network
 unzip string_0.txt.zip
 ```
 
