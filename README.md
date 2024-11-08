@@ -33,6 +33,8 @@ python pagerank.py --knowledge_path ../data/SLE_prior_knowledge
 
 * * *
 ## <a name="run_ml.py"></a> Probability of disease association
+
+Runtime depending on the number of iterations for cross-validation (1,000 or more cross-validation is highly recommended, the default 1,000 iterations takes about 2 hours).
 * ### Input:
     pagerank_path (Directory path of pagerank score)
 
