@@ -16,7 +16,9 @@ unzip string_0.txt.zip
 #### By preparing prior knowledge data (refer to the format of "SLE_GWAS.txt" or "GCall_genelist.txt") and DEG information (refer to the format of "SLE_DEGs.tsv") for a specific disease in the required file format and organizing them in the correct directory, you can prioritize the biomarker list for that disease. For SLE cases, use the data and command below.
 
 * * *
-## <a name="pagerank.py"></a> Network propagation(Runtime depending on the number of prior knowledge (for SLE, ~1 minute).)
+## <a name="pagerank.py"></a> Network propagation
+
+Runtime depending on the number of prior knowledge (for SLE, ~1 minute).
 * ### Input:
     knowledge_path (Directory path of disease-related prior knowledge information)
   
